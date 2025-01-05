@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-container {
+            position: relative;
+            width: 98%;
+            margin: 10px 0;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            filter: blur(5px); /* Adjust the value */
+            transition: filter 0.3s ease-in-out;
+        }
+
+        .image-container:hover img {
+            filter: blur(3px);
+        }
+
+        .view-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ff5722;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            opacity: 0.9;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .view-button:hover {
+            opacity: 1;
+            background-color: #ff784e;
+        }
+    </style>
+</head>
+<body>
+    <!-- Image 1 -->
+    <div class="image-container">
+        <a href="https://www.profitablecpmrate.com/ekrzy69zh?key=00d12dc404631afc45ef3709ead1b742" target="_blank">
+            <img src="https://cdn.elitebabes.com/content/241201/0013-13_1200.jpg" alt="Blurred Image 1">
+        </a>
+        <a href="https://www.profitablecpmrate.com/ekrzy69zh?key=00d12dc404631afc45ef3709ead1b742" class="view-button" target="_blank">View</a>
+    </div>
+
+    <!-- Image 2 -->
+    <div class="image-container">
+        <a href="https://www.profitablecpmrate.com/ekrzy69zh?key=00d12dc404631afc45ef3709ead1b742" target="_blank">
+            <img src="https://cdn.elitebabes.com/content/241201/0013-14_1200.jpg" alt="Blurred Image 2">
+        </a>
+        <a href="https://www.profitablecpmrate.com/ekrzy69zh?key=00d12dc404631afc45ef3709ead1b742" class="view-button" target="_blank">View</a>
+    </div>
+
+    
+</body>
+</html>
